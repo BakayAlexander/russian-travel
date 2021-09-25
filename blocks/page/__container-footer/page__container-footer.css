@@ -1,0 +1,15 @@
+.page__container-footer {
+    margin: 92px auto 24px auto;
+}
+
+@media screen and (max-width: 768px) {
+    .page__container-footer {
+        margin: 88px auto 24px auto;    
+    } 
+}
+
+@media screen and (max-width: 320px) {
+    .page__container-footer {
+        margin: 64px auto 24px auto;
+    } 
+}

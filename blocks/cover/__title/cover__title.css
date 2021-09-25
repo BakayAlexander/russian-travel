@@ -1,0 +1,25 @@
+.cover__title {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 1.06;
+    max-width: 560px;
+    text-align: center;
+    margin: 0;
+}
+
+/* промежуточное решение для iphone x */
+@media screen and (max-width: 600px) {
+    .cover__title {
+        font-size: 36px;
+        line-height: 1.1;
+        max-width: 300px;
+    } 
+}
+
+@media screen and (max-width: 320px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 1.09;
+        max-width: 288px;
+    } 
+}

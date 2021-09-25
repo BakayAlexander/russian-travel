@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: calc(100% - 96px);
+    /* max-width: 1184px; */
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: calc(100% - 48px);
+    } 
+}
+
+/* Самостоятельное решение для iphone x */
+@media screen and (max-width: 700px) {
+    .footer {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    } 
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    } 
+}

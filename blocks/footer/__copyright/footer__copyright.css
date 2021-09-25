@@ -1,0 +1,19 @@
+.footer__copyright {
+    font-size: 14px;
+    line-height: 1.14;
+    margin: 0;
+}
+
+/* Самостоятельное решение для iphone x */
+@media screen and (max-width: 700px) {
+    .footer__copyright {
+        padding-left: 8px;
+    } 
+}
+
+@media screen and (max-width: 320px) {
+    .footer__copyright {
+        line-height: 1;
+        padding-left: 16px;
+    } 
+}

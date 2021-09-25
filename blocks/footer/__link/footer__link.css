@@ -1,0 +1,38 @@
+.footer__link {
+    font-size: 16px;
+    line-height: 1.12;
+    color: #fff;
+    text-decoration: none;
+    padding-right: 18px;
+}
+
+.footer__link:last-child {
+    padding-right: 0;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+/* Самостоятельное решение для iphone x */
+@media screen and (max-width: 700px) {
+    .footer__link {
+        font-size: 18px;
+        line-height: 1;
+        padding: 0 0 10px 0;
+    } 
+    .footer__link:last-of-type {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 1;
+        padding: 0 0 32px 0;
+    } 
+    .footer__link:last-of-type {
+        padding: 0;
+    }
+}
