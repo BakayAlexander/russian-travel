@@ -12,3 +12,4 @@
 Необходимо использовать "padding hack" для создания эффекта резиновости на последней картинке.
 
 **Ссылка на GitHub Pages**
+Мой сайт размещен по ссылке https://bakayalexander.github.io/russian-travel/
