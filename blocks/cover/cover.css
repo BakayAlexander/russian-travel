@@ -12,6 +12,10 @@
     background-size: cover;
     z-index: 1;
     /* padding-bottom: 62.5%; */
+    /* padding: calc(100% - 48px); */
+    /* padding-left: calc(100% - 48px); */
+    /* margin-right: 48px;
+    margin-left: 48px; */
 }
 
 .cover::after {
@@ -33,14 +37,14 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
-        max-width: 1024px;
+        max-width: 100%;
         min-height: 640px;
     } 
 }
 
 @media screen and (max-width: 768px) {
     .cover {
-        max-width: 768px;
+        /* max-width: 100%; */
         min-height: 480px;
     } 
 }
@@ -48,14 +52,14 @@
 /* промежуточное решение для iphone x */
 @media screen and (max-width: 600px) {
     .cover {
-        max-width: 420px;
+        /* max-width: 100%; */
         min-height: 200px;
     } 
 }
 
 @media screen and (max-width: 320px) {
     .cover {
-        max-width: 320px;
+        /* max-width: 100%; */
         min-height: 200px;
     } 
 }
