@@ -2,9 +2,21 @@
     max-width: calc(100% - 296px);
 }
 
+@media screen and (max-width: 1150px) {
+    .places {
+        max-width: calc(100% - 120px);
+    } 
+}
+
 @media screen and (max-width: 1024px) {
     .places {
         max-width: calc(100% - 96px);
+    } 
+}
+
+@media screen and (max-width: 900px) {
+    .places {
+        max-width: calc(100% - 50px);
     } 
 }
 
@@ -14,6 +26,14 @@
         /* max-width: 100%; */
     } 
 }
+
+@media screen and (max-width: 650px) {
+    .places {
+        max-width: calc(100% - 10px);
+        /* max-width: 100%; */
+    } 
+}
+
 
 @media screen and (max-width: 320px) {
     .places {

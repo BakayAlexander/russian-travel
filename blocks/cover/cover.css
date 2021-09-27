@@ -1,66 +1,9 @@
 .cover {
     max-width: 1184px;
-    min-height: 740px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
-    position: relative;
-    background-image: url("../../images/cover-trains.jpg");
-    background-size: cover;
-    z-index: 1;
-    /* padding-bottom: 62.5%; */
-    /* padding: calc(100% - 48px); */
-    /* padding-left: calc(100% - 48px); */
-    /* margin-right: 48px;
-    margin-left: 48px; */
 }
 
-.cover::after {
-    content: ' ';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-    z-index: -1;
-    transition: opacity 1s ease-in;
-}
-
-.cover:hover::after {
-    opacity: 0.8;
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
     .cover {
         max-width: 100%;
-        min-height: 640px;
     } 
 }
-
-@media screen and (max-width: 768px) {
-    .cover {
-        /* max-width: 100%; */
-        min-height: 480px;
-    } 
-}
-
-/* промежуточное решение для iphone x */
-@media screen and (max-width: 600px) {
-    .cover {
-        /* max-width: 100%; */
-        min-height: 200px;
-    } 
-}
-
-@media screen and (max-width: 320px) {
-    .cover {
-        /* max-width: 100%; */
-        min-height: 200px;
-    } 
-}
-

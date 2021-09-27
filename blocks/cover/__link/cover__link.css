@@ -1,0 +1,58 @@
+.cover__link {
+    min-height: 740px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    background-image: url("../../../images/cover-trains.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.cover__link::after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    z-index: -1;
+    transition: opacity 1s ease-in;
+}
+
+.cover__link:hover::after {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        min-height: 640px;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .cover__link {
+        min-height: 480px;
+    } 
+}
+
+/* промежуточное решение для iphone x */
+@media screen and (max-width: 600px) {
+    .cover__link {
+        min-height: 300px;
+    } 
+}
+
+@media screen and (max-width: 320px) {
+    .cover__link {
+        min-height: 200px;
+    } 
+}

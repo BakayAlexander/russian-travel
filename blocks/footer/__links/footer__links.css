@@ -6,7 +6,6 @@
 /* Самостоятельное решение для iphone x */
 @media screen and (max-width: 700px) {
     .footer__links {
-        display: flex;
         flex-direction: column;
         padding-left: 8px;
         padding-bottom: 30px;
@@ -15,8 +14,6 @@
 
 @media screen and (max-width: 320px) {
     .footer__links {
-        display: flex;
-        flex-direction: column;
         padding-left: 16px;
         padding-bottom: 48px;
     } 
