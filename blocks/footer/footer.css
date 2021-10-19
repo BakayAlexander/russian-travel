@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     max-width: calc(100% - 96px);
-    /* max-width: 1184px; */
 }
 
 @media screen and (max-width: 768px) {
@@ -18,9 +17,3 @@
         flex-direction: column;
     } 
 }
-
-/* @media screen and (max-width: 320px) {
-    .footer {
-        max-width: 100%;
-    } 
-} */

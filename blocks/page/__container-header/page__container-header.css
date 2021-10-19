@@ -8,12 +8,6 @@
     }
 }
 
-/* @media screen and (max-width:768px) {
-    .page__container-header {
-        margin: 28px auto 48px auto;
-    }
-} */
-
 @media screen and (max-width:320px) {
     .page__container-header {
         margin: 16px auto 48px auto;

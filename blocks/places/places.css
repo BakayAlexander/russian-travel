@@ -23,22 +23,18 @@
 @media screen and (max-width: 768px) {
     .places {
         max-width: calc(100% - 48px);
-        /* max-width: 100%; */
     } 
 }
 
 @media screen and (max-width: 650px) {
     .places {
         max-width: calc(100% - 10px);
-        /* max-width: 100%; */
     } 
 }
 
 
 @media screen and (max-width: 320px) {
     .places {
-        /* max-width: calc(100% - 32px); в этом варианте картинки не на весь размер */
         min-width: 100%;
-        /* пришлось задавать вот так и передвигать текст через отступы */
     } 
 }

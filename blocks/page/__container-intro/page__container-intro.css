@@ -5,7 +5,6 @@
 
 @media screen and (max-width: 1024px) {
     .page__container-intro {
-        /* padding-bottom: 92px; */
         padding-left: 48px;
     } 
 }
